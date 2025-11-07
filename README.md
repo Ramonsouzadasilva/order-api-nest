@@ -12,7 +12,6 @@ Este projeto é uma API construída com **Nest**, usando **Prisma**
 - **PostgreSQL**
 - **TypeScript**
 
----
 
 ---
 
@@ -21,5 +20,5 @@ Este projeto é uma API construída com **Nest**, usando **Prisma**
 Clone o repositório:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+git clone https://github.com/Ramonsouzadasilva/order-api-nest
 
