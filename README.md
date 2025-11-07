@@ -22,4 +22,4 @@ Clone o repositório:
 
 ```bash
 git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
-cd NOME_DO_REPO
+
