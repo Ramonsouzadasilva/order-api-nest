@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: bitnami/postgresql:latest
+    container_name: nest_clean_arch_api
+    restart: unless-stopped
+    ports:
+      - '5432:5432'
+    environment:
+      - POSTGRESQL_USERNAME=nestjs
+      - POSTGRESQL_PASSWORD=password
+      - POSTGRESQL_DATABASE=nestjs_clean_api
+    volumes:
+      - postgres_data:/bitnami/postgresql
+volumes:
+  postgres_data:
